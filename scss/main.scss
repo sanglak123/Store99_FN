@@ -1,0 +1,39 @@
+//abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixin";
+@import "./abstracts/animations";
+
+//base
+@import "./base/reset";
+
+//layout
+@import "./layouts/hearder";
+@import "./layouts/footer";
+
+@import "./layouts/maintance";
+@import "./layouts//admin//AddPhone";
+@import "./layouts//carousel";
+
+//components
+@import "./components//cardProduct";
+@import "./components/fileUpload";
+@import "./components//productionViews";
+@import "./components/productionHot";
+//Dashboard
+@import "./components//dashboard/productionLine";
+@import "./components/dashboard/typePhone";
+@import "./components/dashboard/product";
+@import "./components//dashboard/memorycolor";
+//Modal
+@import "./components/modalShowImgProduct";
+@import "./components/modalShowPhone";
+
+//pages
+@import "./pages/home";
+@import "./pages/dashboard";
+@import "./pages/adminRegister";
+@import "./pages/productions";
+@import "./pages/preview_product";
+@import "./pages/store";
+
+//themes

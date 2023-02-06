@@ -1,0 +1,29 @@
+#modal_showphone {
+    .img_avatar {
+        h3 {
+            font-weight: bold;
+        }
+    }
+
+    .produc_img {
+        h3 {
+            font-weight: bold;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                display: inline;
+                list-style: none;
+                margin: $mg5;
+
+                img {
+                    max-width: 4vw;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+}

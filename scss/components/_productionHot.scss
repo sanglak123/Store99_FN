@@ -1,0 +1,53 @@
+#productions_hot {
+
+    .produc_hot_content {
+        margin: $mg20 0;
+        background-color: $cl_red200;
+        padding: $pd20 $pd30 + 5;
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        .produc_hot_hearder {
+            h5 {
+                color: white;
+
+                span {
+                    font-family: anton;
+                    text-transform: uppercase;
+                }
+            }
+
+            ul {
+                list-style: none;               
+
+                li {
+                    font-size: $fs16 - 6;
+                    color: white;
+                    padding: $pd5;
+                    border: 1px solid white;
+                    margin: 0 $mg10;
+                    border-radius: 10px;
+                    transition: 0.5s;
+                    @media (max-width: 920px) {
+                        display: none!important;
+                    }
+
+                    &:hover {
+                        background-color: $cl_dark700;
+
+                        a {
+                            color: $cl_dark200;
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        transition: 0.5s;
+                        font-size: $fs16 - 3;
+                    }
+                }
+            }
+        }
+    }
+}

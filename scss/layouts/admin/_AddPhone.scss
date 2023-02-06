@@ -1,0 +1,23 @@
+#addPhone {
+    ul {
+        list-style: none;
+
+        .memory_item {           
+            padding: $pd5;
+            border: 1px solid white;
+            margin: 0 $mg5;
+            cursor: pointer;
+            border-radius: 7px;
+            transition: 0.5s;
+            text-align: center;
+
+            &:hover {
+                background-color: wheat;
+                color: $cl_dark300;
+            }
+        }
+        .active {
+            background-color: $cl_dark300;
+        }
+    }
+}

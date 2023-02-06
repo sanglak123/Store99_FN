@@ -1,0 +1,95 @@
+#productions {
+    margin: $mg20 0;
+
+    .hearder_produc_content {
+        box-shadow: rgba(102, 6, 6, 0.35) 0px 5px 15px;
+        padding: $pd10;
+        border-radius: 5px;
+
+        .product_hearder {
+            .product_logo {
+                margin: 0 auto;
+
+                .logo_item {
+                    cursor: pointer;
+                    text-align: center;
+                    overflow: hidden;
+
+                    &:hover {
+                        img {
+                            border: 1px solid rgb(154, 6, 6);
+                        }
+                    }
+
+                    img {
+                        max-width: 80%;
+                        transition: 0.5s;
+                        overflow: hidden;
+                        margin: 0 auto;
+                    }
+                }
+
+                .type_active {
+                    img {
+                        border: 1px solid rgb(154, 6, 6);
+                    }
+                }
+            }
+        }
+
+        .product_filter {
+            .filter_item {
+                ul {
+                    list-style: none;
+
+                    li {
+                        cursor: pointer;
+                        color: $cl_dark300;
+                        display: inline-block;
+                        padding: $pd5 $pd10;
+                        border: 0.5px solid $cl_dark700;
+                        margin: $mg5 $mg10;
+                        border-radius: 15px;
+                        transition: 1s;
+
+                        a {
+                            text-decoration: none;
+                            color: $cl_dark100;
+                            transition: 0.5s;
+                        }
+
+                        &:hover {
+                            background-color: rgb(167, 10, 10);
+                            border: none;
+                            a {
+                                color: $cl_dark700;
+                            }
+                        }
+                    }
+
+                    .li_active {
+                        background-color: rgb(167, 10, 10);                       
+                        a{
+                            color: white!important;
+                        }
+                    }
+
+                    .li_disaple {
+                        cursor: default;
+                        color: $cl_dark300;
+                        display: inline-block;
+                        padding: $pd5 $pd10;
+                        margin: $mg5 $mg10;
+                        border: none;
+
+                        &:hover {
+                            background-color: rgb(255, 252, 252);
+                            color: $cl_dark300;
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }       
+    }
+}

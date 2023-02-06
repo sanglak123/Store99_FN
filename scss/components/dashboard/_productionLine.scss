@@ -1,0 +1,17 @@
+#dashboard_production_line {
+    .production_line_trademarks {
+        .trade_item {
+            border-radius: 7px;
+            overflow: hidden;
+            cursor: pointer;
+
+            img {
+                border: 5px solid rgb(255, 255, 255);
+            }
+
+            .img_active {
+                border: 5px solid rgb(126, 2, 2);
+            }
+        }
+    }
+}

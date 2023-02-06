@@ -1,0 +1,101 @@
+#card_product {
+    cursor: pointer;
+
+    .card_image {
+        position: relative;
+
+        img {
+            margin-top: $mg10;
+            transform: scale(0.9);
+            transition: 0.5s;
+
+            &:hover {
+                transform: scale(0.95);
+            }
+        }
+
+        .card_discount {
+            position: absolute;
+            top: 2%;
+            left: 2%;
+            font-size: $fs16 - 3;
+            color: white;
+            background-color: rgb(184, 10, 10);
+            padding: 0 $pd5;
+            border-radius: 10px;
+        }
+
+        .card_memory {
+            position: absolute;
+            top: 2%;
+            right: 4%;
+            font-size: $fs16 - 3;
+            color: rgb(255, 255, 255);
+            background-color: rgb(92, 89, 89);
+            padding: 0 $pd5;
+            border-radius: 10px;
+            border: 0.6px solid $cl_dark300;
+        }
+
+        .card_color {
+            position: absolute;
+            top: 15%;
+            right: 4%;
+            font-size: $fs16 - 3;
+            color: rgb(255, 255, 255);
+            background-color: rgb(124, 11, 11);
+            padding: 0 $pd5;
+            border-radius: 10px;
+            border: 0.6px solid $cl_dark300;
+        }
+    }
+
+    .card-title {
+        font-weight: bold;
+        color: $cl_dark300;
+
+        &:hover {
+            color: $cl_green;
+        }
+    }
+
+    .card-text {
+        .txt_item {
+            padding: $pd5;
+
+            p {
+                font-size: $fs16 + 3;
+                font-weight: bold;
+                color: rgb(226, 53, 10);
+                margin: 0;
+            }
+
+            s {
+                color: $cl_dark300;
+            }
+
+            span {
+                font-size: $fs16 - 3;
+            }
+        }
+
+        .card_count {
+            p {
+                margin: 0;
+                color: $cl_dark300;
+                font-size: $fs16 - 4;
+            }
+
+            .card_star {
+                color: rgb(242, 160, 6);
+            }
+        }
+    }
+
+    button {
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+#memmory_color {
+    padding: $pd20;
+    border-radius: 7px;
+
+    .memmorys {
+        position: relative;
+
+        ul {
+            list-style: none;
+
+            li {
+                padding: $pd10;
+                border: 1px solid $cl_dark300;
+                display: inline-block;
+                border-radius: 15px;
+                margin: $mg5 $mg10;
+            }
+        }
+        .btn_add{
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+    }
+}

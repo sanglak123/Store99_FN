@@ -1,0 +1,14 @@
+@mixin text_style ($fs, $fw, $cl) {
+    font-size: $fs !important;
+    font-weight: $fw !important;
+    color: $cl !important;
+}
+
+$xs: 480px;
+$sm: 768px;
+$md: 1024px;
+$xl: 1170px;
+$xxl:1400px;
+
+// media queries
+

@@ -1,0 +1,55 @@
+#dashboard_type_phone {
+    background-color: white;
+    padding: $pd20;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+
+    hr {
+        color: $cl_dark300;
+    }
+
+    .logo {
+        .trade_item {
+            img {
+                border-radius: 7px;
+                overflow: hidden;
+                cursor: pointer;
+            }
+
+            .img_active {
+                border: 5px solid rgb(143, 5, 5);
+            }
+        }
+    }
+
+    .product_line {
+        color: black;
+
+        ul {
+            list-style: none;
+
+            li {
+                display: inline-block;
+                padding: $pd5;
+                border: 1px solid $cl_dark300;
+                margin: 0 $mg5;
+                border-radius: 10px;
+            }
+
+            .li_active {
+                background-color: rgb(143, 5, 5);
+                color: white;
+                cursor: pointer;
+                border: none;
+            }
+        }
+    }
+
+    .btn_modal_add_typephone {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+    }
+}

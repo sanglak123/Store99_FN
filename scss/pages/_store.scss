@@ -1,0 +1,108 @@
+#storeShop {
+    .store_hearder {
+        h5 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+
+    .store_container {
+        padding: $pd20;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 7px;
+
+        .store_content {
+
+            .store_product {
+                padding: $pd30;
+
+                .store_render {
+                    .store_item {
+                        .phone_info {
+                            .phone_logo {
+                                max-width: 70PX;
+                            }
+
+                            .phone_title {
+                                h5 {
+                                    @include text_style($fs20, bold, black);
+                                    margin-bottom: $mg5;
+                                }
+
+                                span {
+                                    padding: $pd5;
+                                    border: 1px solid $cl_dark300;
+                                    border-radius: 15px;
+                                    margin: $mg5 0;
+                                    transition: 0.5s;
+
+                                    &:hover {
+                                        background-color: $cl_green;
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                        .phone_price{
+                            h4{
+                                @include text_style($fs20, bold, $cl_red100);
+                                text-align: center;
+                            }
+                            .product_count{
+                                max-width: 40%;
+                                margin: 0 auto;
+                            }
+                        }
+                       
+                    }
+                }
+
+            }
+
+            .store_payment {
+                padding: $pd30;
+
+                .payments {
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+
+            .total_price {
+                p {
+                    font-weight: bold;
+                }
+
+                h2 {
+                    @include text_style($fs30, bold, $cl_red100);
+                    padding: $pd20;
+                    text-align: center;
+                    border: 1px solid $cl_dark300;
+                    border-radius: 7px;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    transform: 0.5s;
+
+                    &:hover {
+                        background-color: $cl_red100;
+                        color: white !important;
+                    }
+                }
+            }
+
+            .payment_btn {
+                text-align: center;
+
+                a {
+                    text-decoration: none;
+                    color: $cl_green;
+                }
+            }
+
+        }
+    }
+
+    .img_10 {
+        width: 10%;
+        margin-right: auto;
+    }
+}

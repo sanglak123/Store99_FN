@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "cua81239_admin",
+    "password": "sanglak123",
+    "database": "cua81239_cuhang99",
+    "host": "cuahang99.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "cua81239_admin",
+    "password": "sanglak123",
+    "database": "cua81239_cuhang99",
+    "host": "cuahang99.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "cua81239_admin",
+    "password": "sanglak123",
+    "database": "cua81239_cuhang99",
+    "host": "cuahang99.com",
+    "dialect": "mysql"
+  }
+}
